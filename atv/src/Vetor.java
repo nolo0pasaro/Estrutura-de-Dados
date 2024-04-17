@@ -7,18 +7,18 @@ public class Vetor {
     private int tamanho;
 
     public Vetor() {
-        this.alunos = new Aluno[100]; // Inicializa o vetor com capacidade para 100 alunos
-        this.tamanho = 0; // Inicializa o tamanho como zero
+        this.alunos = new Aluno[100]; 
+        this.tamanho = 0; 
     }
 
     public void adiciona(Aluno aluno) {
-        this.alunos[this.tamanho] = aluno; // Adiciona o aluno na próxima posição disponível
-        this.tamanho++; // Incrementa o tamanho do vetor
+        this.alunos[this.tamanho] = aluno; 
+        this.tamanho++; 
     }
 
     public boolean contem(Aluno aluno) {
         for (int i = 0; i < this.tamanho; i++) {
-            if (aluno.equals(this.alunos[i])) { // Comparação de objetos deve ser feita com equals
+            if (aluno.equals(this.alunos[i])) { 
                 return true;
             }
         }

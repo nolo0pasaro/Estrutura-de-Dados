@@ -1,4 +1,4 @@
-package br.com.caelum.ed; // Lembre-se de colocar a classe no pacote correto
+package br.com.caelum.ed; 
 
 public class Aluno {
     private String nome;
@@ -9,7 +9,6 @@ public class Aluno {
         this.idade = idade;
     }
 
-    // Métodos getters e setters
     public String getNome() {
         return nome;
     }

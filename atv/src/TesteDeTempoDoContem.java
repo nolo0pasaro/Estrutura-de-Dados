@@ -1,4 +1,3 @@
-// No need for package declarations in this case
 
 class Aluno {
     private String nome;
@@ -9,7 +8,6 @@ class Aluno {
         this.idade = idade;
     }
 
-    // Getters and setters
 
     @Override
     public String toString() {
